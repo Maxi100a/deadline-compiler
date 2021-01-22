@@ -15,7 +15,7 @@ function compile() {
       var year = undate.substring(0,4);
       var month = undate.substring(4,6);
       var day = undate.substring(6);
-      var date = '=DATEVALUE("' + month + "/" + day + "/" + year + '")';
+      var date = month + "/" + day + "/" + year;
       current.push(date);
     }
 
